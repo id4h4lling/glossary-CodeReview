@@ -1,0 +1,84 @@
+/* Example styling of a h1 element */
+
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+.header{
+  background-color: rgb(36, 100, 123);
+  height: 50px;
+}
+
+.headline h1{
+  font-family: Playfair Display; font-weight: 200;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  color: rgb(181, 112, 136);
+}
+
+.headline p{
+font-family: Quicksand;
+font-size: 20px;
+color: black;
+margin-inline-start: 80px;
+margin-inline-end: 80px;
+line-height: 35px;
+}
+
+.link{
+  color:  rgb(36, 100, 123);
+}
+
+
+.articles{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-inline-start: 170px;
+  margin-inline-end: 170px;
+  padding: 50px;
+  font-family: Quicksand;
+}
+
+.article-1{
+  background-color: rgb(240, 240, 240);
+  padding: 40px;
+
+}
+
+.article-1 h2{
+  color: rgb(36, 100, 123);
+  padding: 10px;
+  font-size: 30px;
+  }
+
+ul{
+  margin-inline-start: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.article-2{
+  background-color:rgb(240, 240, 240);
+  padding: 40px;
+}
+
+.article-2 h2{
+  color: rgb(36, 100, 123);
+  padding: 10px;
+  font-size: 30px;
+  }
+
+ol{
+  margin-inline-start: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+.footer{
+  background-color: rgb(36, 100, 123);
+  height: 50px;
+}
